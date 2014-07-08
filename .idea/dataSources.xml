@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3115190001">
+    <data-source source="LOCAL" name="Rails imdb-ceawler: development" uuid="d989b254-da2a-4513-8edb-f31f2ee70bf3">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/sme-ceawler_development</jdbc-url>
+      <user-name>smecrawler</user-name>
+      <user-password>dfd9dfc7dfcfdfc9dfd8dfcbdfdddfc6dfcfdfd8</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails imdb-ceawler: test" uuid="f6bdab85-519a-4218-aa66-a765cda10df4">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/sme-ceawler_test</jdbc-url>
+      <user-name>smecrawler</user-name>
+      <user-password>dfd9dfc7dfcfdfc9dfd8dfcbdfdddfc6dfcfdfd8</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails imdb-ceawler: production" uuid="2231b0c7-2e94-4847-908b-93d06ed26742">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/sme-ceawler_production</jdbc-url>
+      <user-name>imdb-ceawler</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddff9dfe7dfefdf87dfe9dfefdfebdffddfe6dfefdff8dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails imdb-ceawler: development" uuid="d989b254-da2a-4513-8edb-f31f2ee70bf3">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails imdb-ceawler: test" uuid="f6bdab85-519a-4218-aa66-a765cda10df4">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails imdb-ceawler: production" uuid="2231b0c7-2e94-4847-908b-93d06ed26742">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
