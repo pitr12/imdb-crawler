@@ -14,5 +14,6 @@ RSpec.describe Movie, :type => :model do
     expect(movie.duration).to eq(165)
 
     expect(movie.genres.size).to eq(3)
+    expect(movie.genres[0].name).to eq("Action")
   end
 end
