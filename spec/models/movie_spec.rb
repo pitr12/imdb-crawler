@@ -12,5 +12,7 @@ RSpec.describe Movie, :type => :model do
     movie = Movie.all.first
     expect(movie.title).to eq("Transformers: Age of Extinction")
     expect(movie.duration).to eq(165)
+
+    expect(movie.genres.size).to eq(3)
   end
 end
