@@ -1,4 +1,6 @@
 class Movie < ActiveRecord::Base
+  has_many :categorizations
+  has_many :genres, :through => :categorizations
 
   def self.parse_movies(html)
     site = Nokogiri::HTML(html)
