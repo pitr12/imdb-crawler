@@ -8,8 +8,9 @@ RSpec.describe Movie, :type => :model do
     Movie.parse_movies(body)
 
     expect(Movie.all.count).to eq(100)
- 
+
     movie = Movie.all.first
     expect(movie.title).to eq("Transformers: Age of Extinction")
+    expect(movie.duration).to eq(165)
   end
 end
