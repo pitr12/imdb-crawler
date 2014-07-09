@@ -27,17 +27,10 @@ p {
   line-height: 1.7em;
 }
 
-/* Movies index */
+table {
+ width: auto !important;
+}
 
-.movies {
-  list-style: none;
-  margin: 0;
-  li {
-    overflow: auto;
-    padding: 10px 0;
-    border-top: 1px solid $grayLighter;
-    &:last-child {
-      border-bottom: 1px solid $grayLighter;
-    }
-  }
+.star{
+  width: auto !important;
 }

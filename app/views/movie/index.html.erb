@@ -1,18 +1,51 @@
 <div class="center hero-unit">
+
+  <script type="text/javascript">
+      $(function()
+      {
+          $('.star').raty({
+              path: '/assets',
+              number: 10,
+              readOnly   : true,
+              halfShow : true,
+              score: function() {
+                  return $(this).attr('data-score');
+              }
+          });
+      });
+  </script>
+
+
     <h1 >List of all Movies</h1>
 
+  <ul class="pagination">
+    <%= will_paginate @movies, renderer: BootstrapPagination::Rails %>
+  </ul>
 
-    <table class="table table-striped">
-      <ul class="pagination movies">
-        <%= will_paginate @movies, renderer: BootstrapPagination::Rails %>
-    <% @movies.each do |movie| %>
-            <tr>
-          <td><%= movie.title%></td>
-          <td>(<%= movie.year%>)</td>
-          <td><%= movie.description %></td>
-            </tr>
-    <% end %>
-      </ul>
-    </table>
+  <table class="table table-condensed table-striped">
+    <thead>
+    <tr>
+      <th width="20%">Title</th>
+      <th width="30%">Rating</th>
+      <th width="10%">Year</th>
+      <th width="40%">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+      <% @movies.each do |movie| %>
+          <tr>
+            <td><%= movie.title%></td>
+            <td><div class="star" data-score="<%= movie.rating %>"></div></td>
+            <td>(<%= movie.year%>)</td>
+            <td><%= movie.description %></td>
+          </tr>
+      <% end %>
+  </table>
+
+  <ul class="pagination">
+    <%= will_paginate @movies, renderer: BootstrapPagination::Rails %>
+  </ul>
+  
 </div>
 
